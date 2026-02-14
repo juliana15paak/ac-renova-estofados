@@ -1,0 +1,24 @@
+*{
+  --color-primary: #EDF6F9;
+  --color-secondary: #0392CC;
+  --color-tertiary: #59B606;
+  --color-quaternary: #5DD4DF;
+  --color-quinary: #006D77;
+  --color-black: #0F031B;
+  --color-white: #F7F4FB;
+
+  --gray-primary: #5C5C5E;
+  --gray-secondary: #8C8C8C;
+  --gray-tertiary: #BEBDBF;
+  --gray-quaternary: #D9D9D9;
+
+  --shadow-color-secondary: #1C4F6C;
+  --shadow-color-tertiary: #17702E;
+  --shadow-color-quaternary: #387075;
+  --shadow-color-quinary: #133D42;
+
+  --tint-color-secondary: #93C1E3;
+  --tint-color-tertiary: #B8F5B8;
+  --tint-color-quaternary: #AEE8ED;
+  --tint-color-quinary: #82ACB1;
+}

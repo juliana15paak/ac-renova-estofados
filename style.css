@@ -53,6 +53,11 @@ h1, h2, h3, h4{
   color: black;
   border-radius: 10px;
 }
+a{
+  text-decoration: none;
+  color: var(--color-white);
+  text-transform: uppercase;
+}
 
 header {
   display: flex;
@@ -125,6 +130,17 @@ ul li a{
   box-sizing: border-box;
   padding: 4rem;
 }
+.galeria{
+  display: flex;
+  padding: 2rem 0;
+  gap: 2rem;
+  scroll-behavior: auto;
+  overflow-y: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
 
 #local{
   display: flex;

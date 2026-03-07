@@ -18,7 +18,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <!-- <link rel="icon" type="image/png" href="/favicon.png"> -->
+  <link rel="icon" type="image/png" href="/assets/img/logo.svg">
 </head>
 <body>
   <header>
@@ -30,7 +30,9 @@
         <li><a href="#resultados">Resultados</a></li>
         <li><a href="#contato">Contato</a></li>
       </ul>
-      <button class="btn-primary">wpp</button>
+      <button class="btn-primary" style="padding: 12px;">
+        <img src="assets/icons/WhatsappLogo.svg" alt="Whatsapp" width="32px">
+      </button>
     </nav>
   </header>
   <main>
@@ -38,7 +40,9 @@
       <div class="home__texts">
         <h1>A&C RENOVA ESTOFADOS</h1>
         <h3>Seu sofá novo de novo, sem sair de casa. Removemos manchas, odores e sujeira profunda. Atendimento em domicílio em São Paulo e região.</h3>
-        <button class="btn-primary">Solicitar Orçamento</button>
+        <button class="btn-primary">Solicitar Orçamento
+          <img src="assets/icons/WhatsappLogo.svg" alt="Whatsapp" width="32px">
+        </button>
       </div>
       <img src="assets/img/art.svg" alt="" width="500px">
     </section>
@@ -69,7 +73,7 @@
     </section>
 
     <section id="resultados">
-      <h2>Antes e Depois</h2>
+      <h1>Antes e Depois</h1>
       <div class="galeria">
         <img src="" alt="">
       </div>
@@ -87,56 +91,63 @@
       </div>
     </section> -->
 
-    <section class="local">
-      <h3>Atendemos toda a capital de São Paulo.</h3>
-      <iframe src="" frameborder="0"></iframe>
-      <div class="cards_locais">
-        <details>
-          <summary>Zona Norte</summary>
-          Santana, Tucuruvi, Parada Inglesa, Jardim São Paulo, Mandaqui, Casa Verde, Vila Guilherme, Jaçanã, Tremembé
-        </details>
-        <details>
-          <summary>Zona Leste</summary>
-          Tatuapé, Anália Franco, Mooca, Vila Carrão, Penha, Vila Matilde, Belém, Vila Prudente, Água Rasa
-        </details>
-        <details>
-          <summary>Zona Sul</summary>
-          Perdizes, Pompéia, Barra Funda, Lapa, Vila Leopoldina, Pinheiros, Vila Madalena, Sumaré
-        </details>
-        <details>
-          <summary>Zona Oeste</summary>
-          Vila Mariana, Moema, Saúde, Ipiranga, Aclimação, Paraíso, Campo Belo, Jabaquara
-        </details>
-        <details>
-          <summary>Centro</summary>
-          Higienópolis, Santa Cecília, Bela Vista, Consolação, Bom Retiro, Cambuci, Liberdade
-        </details>
+    <section id="local">
+      <h2>Atendemos toda a capital de São Paulo.</h2>
+      <div class="locais">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29271.368816564194!2d-46.6315925!3d-23.499351150000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef632abeb4ded%3A0xd55c6419328f186d!2sSantana%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1772847172174!5m2!1spt-BR!2sbr" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="locais__toggles">
+          <details class="toggle-primary">
+            <summary>Zona Norte</summary>
+            <p>Santana, Tucuruvi, Parada Inglesa, Jardim São Paulo, Mandaqui, Casa Verde, Vila Guilherme, Jaçanã, Tremembé</p>
+          </details>
+          <details class="toggle-primary">
+            <summary><h4>Zona Leste</h4></summary>
+            <p>Tatuapé, Anália Franco, Mooca, Vila Carrão, Penha, Vila Matilde, Belém, Vila Prudente, Água Rasa</p>
+          </details>
+          <details class="toggle-primary">
+            <summary><h4>Zona Sul</h4></summary>
+            <p>Perdizes, Pompéia, Barra Funda, Lapa, Vila Leopoldina, Pinheiros, Vila Madalena, Sumaré</p>
+          </details>
+          <details class="toggle-primary">
+            <summary><h4>Zona Oeste</h4></summary>
+            <p>Vila Mariana, Moema, Saúde, Ipiranga, Aclimação, Paraíso, Campo Belo, Jabaquara</p>
+          </details>
+          <details class="toggle-primary">
+            <summary><h4>Centro</h4></summary>
+            <p>Higienópolis, Santa Cecília, Bela Vista, Consolação, Bom Retiro, Cambuci, Liberdade</p>
+          </details>
+        </div>
       </div>
     </section>
 
-    <section class="contato">
+    <section id="contato">
       <div class="faq">
-        <details>
-          <summary>Os produtos são seguros para crianças e pets?</summary>
-          Sim!
-        </details>
-        <details>
-          <summary>Vocês cobram taxa de visita?</summary>
-          Sim!
-        </details>
-        <details>
-          <summary>Vocês atendem aos finais de semana?</summary>
-          Sim!
-        </details>
-        <details>
-          <summary>Quais as formas de pagamento?</summary>
-          
-        </details>
+        <h2>FAQ</h2>
+        <div class="faq__toggles">
+          <details class="toggle-primary">
+            <summary>Os produtos são seguros para crianças e pets?</summary>
+            Sim!
+          </details>
+          <details class="toggle-primary">
+            <summary>Vocês cobram taxa de visita?</summary>
+            Sim!
+          </details>
+          <details class="toggle-primary">
+            <summary>Vocês atendem aos finais de semana?</summary>
+            Sim!
+          </details>
+          <details class="toggle-primary">
+            <summary>Quais as formas de pagamento?</summary>
+            Pix
+          </details>
+        </div>
       </div>
       <div class="infos">
         <h3>Contate-nos</h3>
-        <button>Pedir orçamento no Whatsapp</button>
-        <button>Ou envie um email</button>
+        <button class="btn-primary">Pedir orçamento no Whatsapp
+          <img src="assets/icons/WhatsappLogo.svg" alt="Whatsapp" width="24px">
+        </button>
+        <button class="btn-primary" style="background-color: var(--color-secondary);">Ou envie um email</button>
       </div>
     </section>
   </main>

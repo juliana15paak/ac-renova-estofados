@@ -34,6 +34,24 @@ body{
 h1, h2, h3, h4{
   font-family: "Work Sans", sans-serif;
 }
+.btn-primary{
+  background-color: var(--color-tertiary);
+  padding: 1rem;
+  border-radius: 2rem;
+  border: none;
+  width: fit-content;
+  text-transform: uppercase;
+  color: white;
+}
+.btn-secondary{
+  background-color: var(--color-secondary);
+  padding: 1rem;
+  border-radius: 2rem;
+  border: none;
+  width: fit-content;
+  text-transform: uppercase;
+  color: white;
+}
 
 header {
   display: flex;
@@ -45,16 +63,18 @@ header {
 }
 nav{
   display: flex;
-  gap: 1rem;
+  gap: 3rem;
+  align-items: center;
 }
 ul{
   display: flex;
-  gap: 1rem;
+  gap: 3rem;
   list-style: none;
 }
 ul li a{
   text-decoration: none;
   color: var(--color-black);
+  text-transform: uppercase;
 }
 
 /*home*/
@@ -72,21 +92,30 @@ ul li a{
 }
 .home__texts h1{
   color: var(--color-quinary);
+  font-size: 3rem;
 }
 
 #servicos{
  background-color: var(--shadow-color-quinary); 
-
+ box-sizing: border-box;
+ padding: 2rem 2rem 3rem;
 }
 .servicos__cards{
   display: flex;
+  box-sizing: border-box;
+  margin-top: -4rem;
   gap: 2rem;
   justify-content: space-around;
   align-items: center;
 }
-.servicos__cards card{
+.servicos__cards .card{
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
   padding: 1rem;
+  border-radius: 4px;
   background-color: var(--color-primary);
+  box-shadow: 4px 6px 12px;
 }

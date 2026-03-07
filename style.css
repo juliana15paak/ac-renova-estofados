@@ -27,7 +27,6 @@
   margin: 0;
   padding: 0;
 }
-
 body{
   font-family: "Open Sans", sans-serif;
 }
@@ -47,11 +46,26 @@ h1, h2, h3, h4{
   text-transform: uppercase;
   color: white;
 }
+.btn-primary:hover{
+  cursor: pointer;
+    transform: scale(1.03);
+
+}
+.btn-fixed{
+  padding: 10px 12px;
+  margin: 2rem;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
 .toggle-primary{
   background-color: var(--color-primary);
   padding: 1rem 24px;
   color: black;
   border-radius: 10px;
+}
+.toggle-primary:hover{
+  cursor: pointer;
 }
 summary{
   font-weight: 600;
@@ -93,6 +107,7 @@ ul li a{
   padding: 3rem 4rem;
   background: radial-gradient(circle at bottom, var(--color-primary), var(--color-primary), var(--color-primary), var(--tint-color-secondary));
   gap: 8rem;
+  min-width: 90vh;
 }
 .home__texts{
   display: flex;
@@ -109,6 +124,8 @@ ul li a{
  background-color: var(--shadow-color-quinary); 
  box-sizing: border-box;
  padding: 2rem 2rem 3rem;
+ min-width: 90vh;
+
 }
 .servicos__cards{
   display: flex;
@@ -118,7 +135,7 @@ ul li a{
   justify-content: space-around;
   align-items: center;
 }
-.servicos__cards .card{
+.card{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -129,10 +146,14 @@ ul li a{
   background-color: var(--color-primary);
   box-shadow: 4px 6px 12px;
 }
+.card:hover{
+  transform: scale(1.03);
+}
 
 #resultados{
   box-sizing: border-box;
   padding: 4rem 4rem 2rem;
+  min-width: 90vh;
 }
 .galeria{
   display: flex;
@@ -151,6 +172,7 @@ ul li a{
   align-items: center;
   box-sizing: border-box;
   padding: 2rem 4rem 4rem;
+  min-width: 90vh;
 }
 .descricao{
   display: flex;
@@ -180,6 +202,7 @@ ul li a{
   color: white;
   padding: 4rem;
   gap: 2rem;
+  min-width: 90vh;
 }
 .locais{
   display: flex;
@@ -207,6 +230,7 @@ ul li a{
   align-items: center;
   background-color: white;
   padding: 4rem;
+  min-width: 90vh;
 }
 .faq{
   display: flex;
@@ -239,4 +263,25 @@ footer{
 .redes{
   display: flex;
   gap: 1rem;
+}
+
+
+@media (max-width: 800px){
+  header{
+    display: none;
+  }
+  #home{
+    flex-direction: column;
+    align-items: center;
+  }
+  #equipamentos{
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .locais{
+    flex-direction: column;
+  }
+  #contato{
+    flex-direction: column;
+  }
 }

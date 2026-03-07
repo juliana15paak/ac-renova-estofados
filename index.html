@@ -37,7 +37,12 @@
       </button>
     </nav>
   </header>
-  <main>
+  <main style="position: relative;">
+    <button class="btn-primary btn-fixed">
+      <a href="https://api.whatsapp.com/send/?phone=11948443854&text&type=phone_number&app_absent=0&utm_source=ig" target="_blank">
+        <img src="assets/icons/WhatsappLogo.svg" alt="Whatsapp" width="42px">
+      </a>
+    </button>
     <section id="home">
       <div class="home__texts">
         <h1>A&C RENOVA ESTOFADOS</h1>
@@ -47,7 +52,11 @@
           <img src="assets/icons/WhatsappLogo.svg" alt="Whatsapp" width="32px">
         </button>
       </div>
-      <img src="assets/img/art.svg" alt="" width="500px">
+      <picture>
+        <source media="(max-width: 799px)" srcset="assets/img/logo.svg" width="200px">
+        <source media="(min-width: 800px)" srcset="assets/img/art.svg" width="500px">
+        <img src="assets/img/art.svg" alt="Sala com sofá limpo">
+      </picture>
     </section>
 
     <section id="servicos">
@@ -165,7 +174,6 @@
     </section>
   </main>
   <footer>
-    <caption>&copy; Copyright - Todos os Direitos Reservados</caption>
     <div class="redes">
       <a href="https://www.instagram.com/acrenovaestofados/" target="_blank">
         <img src="assets/icons/instagram.svg" alt="Instagram" width="24px">
@@ -174,6 +182,7 @@
         <img src="assets/icons/facebookLogo.svg" alt="Facebook" width="24px">
       </a>
     </div>
+    <caption>&copy; Copyright - Todos os Direitos Reservados</caption>
   </footer>
 </body>
 </html>

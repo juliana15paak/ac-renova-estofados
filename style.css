@@ -81,17 +81,18 @@ ul li a{
 #home{
   display: flex;
   align-items: center;
-  padding: 4rem;
+  padding: 3rem 4rem;
   background: radial-gradient(circle at bottom, var(--color-primary), var(--color-primary), var(--color-primary), var(--tint-color-secondary));
-  gap: 16rem;
+  gap: 8rem;
 }
 .home__texts{
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  padding: 0 1rem;
 }
 .home__texts h1{
-  color: var(--color-quinary);
+  color: var(--shadow-color-secondary);
   font-size: 3rem;
 }
 

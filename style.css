@@ -1,4 +1,4 @@
-*{
+:root{
   --color-primary: #EDF6F9;
   --color-secondary: #0392CC;
   --color-tertiary: #59B606;
@@ -21,4 +21,21 @@
   --tint-color-tertiary: #B8F5B8;
   --tint-color-quaternary: #AEE8ED;
   --tint-color-quinary: #82ACB1;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+}
+
+nav{
+  display: flex;
+}
+
+ul{
+  display: flex;
 }

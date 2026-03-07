@@ -171,7 +171,7 @@ ul li a{
 #local{
   display: flex;
   flex-direction: column;
-  background-color: var(--color-quinary);
+  background-color: var(--shadow-color-quinary);
   background-image: url('assets/img/sala.jpg');
   background-size: cover;
   background-blend-mode: multiply;
@@ -230,7 +230,13 @@ ul li a{
 
 footer{
   display: flex;
-  padding: 4rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem;
   background-color: var(--shadow-color-quinary);
   color: white;
+}
+.redes{
+  display: flex;
+  gap: 1rem;
 }

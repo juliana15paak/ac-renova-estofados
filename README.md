@@ -2,7 +2,7 @@
 
 Uma Landing Page responsiva e focada em conversão desenvolvida para um negócio local de higienização de estofados. O principal objetivo do projeto é atrair clientes da região de São Paulo (Capital e Grande SP) e direcioná-los para um orçamento rápido via WhatsApp.
 
-🔗 **[Visualizar o projeto online](https://seugithub.github.io/ac-renova)**
+🔗 **[Visualizar o projeto online](https://juliana15paak.github.io/ac-renova-estofados/)**
 
 ## 💻 Visual do Projeto
 
@@ -45,3 +45,4 @@ cd nome-do-repositorio
 ---
 
 Desenvolvido com dedicação por Juliana Alves ❤️
+

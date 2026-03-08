@@ -87,7 +87,6 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: var(--color-white);
-  position: sticky;
 }
 nav{
   display: flex;

@@ -25,7 +25,7 @@ Uma Landing Page responsiva e focada em conversão desenvolvida para um negócio
 
 Durante o desenvolvimento deste projeto, pude aprimorar a transição de um layout Desktop-First desenhado no Figma para uma aplicação web totalmente responsiva. Também apliquei conceitos práticos de SEO voltado para negócios locais, entendendo como a semântica do código impacta diretamente na visibilidade de um serviço na internet.
 
-
+##
 
 Desenvolvido com dedicação por Juliana Alves ❤️
 

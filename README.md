@@ -25,24 +25,7 @@ Uma Landing Page responsiva e focada em conversão desenvolvida para um negócio
 
 Durante o desenvolvimento deste projeto, pude aprimorar a transição de um layout Desktop-First desenhado no Figma para uma aplicação web totalmente responsiva. Também apliquei conceitos práticos de SEO voltado para negócios locais, entendendo como a semântica do código impacta diretamente na visibilidade de um serviço na internet.
 
-## ⚙️ Como rodar o projeto localmente
 
-1. Clone este repositório:
-   ```bash
-   git clone [https://github.com/SeuUsuario/nome-do-repositorio.git](https://github.com/SeuUsuario/nome-do-repositorio.git)
-
-```
-
-2. Abra a pasta do projeto:
-```bash
-cd nome-do-repositorio
-
-```
-
-
-3. Abra o arquivo `index.html` no seu navegador ou inicie um Live Server na sua IDE (como o VS Code).
-
----
 
 Desenvolvido com dedicação por Juliana Alves ❤️
 

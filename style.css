@@ -347,26 +347,37 @@ footer{
   #home{
     flex-direction: column;
     align-items: center;
-    padding: 2rem 1rem;
+    padding: 4rem 1rem;
     justify-content: center;
     gap: 3rem;
-    padding-bottom: 4rem;
   }
   #servicos{
     padding: 2rem 1rem;
   }
   #resultados{
-    padding: 2rem 1rem;
+    padding: 2rem 1rem 0;
+  }
+  #resultados img{
+    width: 100%;
+    height: auto;
   }
   #equipamentos{
     flex-direction: column;
     gap: 2rem;
-    padding: 2rem 1rem;
+    padding: 1rem 1rem 2rem;
   }
   #equipamentos img{
     max-width: 100%;
     height: auto;
   }
+  .descricao{
+    text-align: center;
+    align-items: center;
+  }
+  .descricao__list{
+    font-weight: 500;
+  }
+
   #local{
     padding: 2rem 2rem;
   }

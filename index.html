@@ -24,20 +24,23 @@
   <header>
     <img src="assets/img/logo.svg" alt="" width="100px">
     <nav>
+      <button class="menu" aria-label="Abrir menu de navegação">
+        <img src="./assets/icons/menu.svg" alt="menu" width="30px">
+      </button>
       <ul>
         <li><a href="#home">Início</a></li>
         <li><a href="#servicos">Serviços</a></li>
         <li><a href="#resultados">Resultados</a></li>
         <li><a href="#contato">Contato</a></li>
+        <button class="btn-primary" style="padding: 8px 10px;">
+          <a href="https://api.whatsapp.com/send/?phone=11948443854&text&type=phone_number&app_absent=0&utm_source=ig" target="_blank">
+            <img src="assets/icons/WhatsappLogo.svg" alt="Whatsapp" width="32px">
+          </a>
+        </button>
       </ul>
-      <button class="btn-primary" style="padding: 8px 10px;">
-        <a href="https://api.whatsapp.com/send/?phone=11948443854&text&type=phone_number&app_absent=0&utm_source=ig" target="_blank">
-          <img src="assets/icons/WhatsappLogo.svg" alt="Whatsapp" width="32px">
-        </a>
-      </button>
     </nav>
   </header>
-  <main style="position: relative;">
+  <main>
     <button class="btn-primary btn-fixed">
       <a href="https://api.whatsapp.com/send/?phone=11948443854&text&type=phone_number&app_absent=0&utm_source=ig" target="_blank">
         <img src="assets/icons/WhatsappLogo.svg" alt="Whatsapp" width="42px">
@@ -184,5 +187,7 @@
     </div>
     <caption>&copy; Copyright - Todos os Direitos Reservados</caption>
   </footer>
+
+  <script src="./js/menu.js" defer></script>
 </body>
 </html>

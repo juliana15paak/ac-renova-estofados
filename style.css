@@ -35,16 +35,16 @@ h1, h2, h3, h4{
   font-family: "Work Sans", sans-serif;
 }
 h1{
-  font-size: 3.5rem;
+  font-size: 2.5rem;
 }
 h2{
-  font-size: 2.25rem;
+  font-size: 2rem;
 }
 h3{
-  font-size: 1.75rem;
+  font-size: 1.2rem;
 }
 h4{
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 .btn-primary{
@@ -104,7 +104,7 @@ header {
   background-color: var(--color-white);
 }
 header > img{
-  width: clamp(80px, 15vw, 150px);
+  width: clamp(80px, 10vw, 150px);
 }
 .menu{
   display: none;
@@ -156,6 +156,7 @@ ul li a:hover{
 }
 .servicos__cards{
   display: flex;
+  flex-wrap: nowrap;
   box-sizing: border-box;
   margin-top: -4rem;
   gap: 2rem;
@@ -359,6 +360,7 @@ footer{
   .card{
     width: 45%;
     padding: 0.875rem;
+    text-align: center;
   }
   .card img{
     width: 100%;

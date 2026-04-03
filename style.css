@@ -35,20 +35,16 @@ h1, h2, h3, h4{
   font-family: "Work Sans", sans-serif;
 }
 h1{
-    font-size: 3.5rem;
+  font-size: 3.5rem;
 }
 h2{
-    font-size: 2.25rem;
+  font-size: 2.25rem;
 }
 h3{
-    font-size: 1.75rem;
+  font-size: 1.75rem;
 }
 h4{
-    font-size: 1.25rem;
-}
-main > section{
-  min-height: 90vh;
-  width: 100%;
+  font-size: 1.25rem;
 }
 
 .btn-primary{
@@ -107,6 +103,9 @@ header {
   align-items: center;
   background-color: var(--color-white);
 }
+header > img{
+  width: clamp(80px, 15vw, 150px);
+}
 .menu{
   display: none;
   border: none;
@@ -139,6 +138,8 @@ ul li a:hover{
   padding: 3rem 4rem;
   background: radial-gradient(circle at bottom, var(--color-primary), var(--color-primary), var(--color-primary), var(--tint-color-secondary));
   gap: 8rem;
+  min-height: 90vh;
+  width: 100%;
 }
 .home__texts{
   display: flex;
@@ -148,14 +149,11 @@ ul li a:hover{
 }
 .home__texts h1{
   color: var(--shadow-color-secondary);
-  font-size: 3rem;
 }
-
 #servicos{
  background-color: var(--shadow-color-quinary); 
  box-sizing: border-box;
  padding: 2rem 2rem 3rem;
-
 }
 .servicos__cards{
   display: flex;
@@ -185,6 +183,8 @@ ul li a:hover{
 #resultados{
   box-sizing: border-box;
   padding: 4rem 4rem 2rem;
+  min-height: 70vh;
+  width: 100%;
 }
 .galeria{
   display: flex;
@@ -203,6 +203,8 @@ ul li a:hover{
   align-items: center;
   box-sizing: border-box;
   padding: 2rem 4rem 4rem;
+  min-height: 70vh;
+  width: 100%;
 }
 .descricao{
   display: flex;
@@ -231,6 +233,8 @@ ul li a:hover{
   color: white;
   padding: 4rem;
   gap: 2rem;
+  min-height: 90vh;
+  width: 100%;
 }
 .locais{
   display: flex;
@@ -258,6 +262,8 @@ ul li a:hover{
   align-items: center;
   background-color: white;
   padding: 4rem;
+  min-height: 90vh;
+  width: 100%;
 }
 .faq{
   display: flex;
@@ -295,19 +301,21 @@ footer{
 
 @media (max-width: 768px){
   h1{
-    font-size: 3rem;
+    font-size: 2.2rem;
   }
   h2{
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   h3{
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
   h4{
     font-size: 1rem;
   }
-  main > section{
-    padding: 2rem 1rem;
+  .home__texts h3{
+    font-size: 1.1rem;
+    line-height: 1.4;
+    font-weight: 500;
   }
   .menu{
     display: flex;
@@ -338,14 +346,35 @@ footer{
   #home{
     flex-direction: column;
     align-items: center;
+    padding: 2rem 1rem;
+    justify-content: center;
+    gap: 3rem;
+    padding-bottom: 4rem;
+  }
+  #servicos{
+    padding: 2rem 1rem;
+  }
+  #resultados{
+    padding: 2rem 1rem;
   }
   #equipamentos{
     flex-direction: column;
     gap: 2rem;
+    padding: 2rem 1rem;
   }
   #equipamentos img{
     max-width: 100%;
     height: auto;
+  }
+  .descricao{
+    text-align: center;
+    align-items: center;
+  }
+  .descricao li{
+    font-weight: 500;
+  }
+  #local{
+    padding: 2rem 2rem;
   }
   .locais{
     flex-direction: column;
@@ -356,5 +385,6 @@ footer{
   }
   #contato{
     flex-direction: column;
+    padding: 2rem 1rem;
   }
 }

@@ -27,6 +27,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 body{
   font-family: "Open Sans", sans-serif;
@@ -429,5 +430,11 @@ footer{
   }
   .btn-fixed img{
     width: 30px;
+  }
+}
+
+@media (max-width: 1050px){
+  #home{
+    padding: 5rem 3rem;
   }
 }

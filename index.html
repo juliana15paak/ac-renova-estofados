@@ -55,11 +55,14 @@
           <img src="assets/icons/WhatsappLogo.svg" alt="Whatsapp" width="32px">
         </button>
       </div>
-      <picture>
-        <source media="(max-width: 799px)" srcset="assets/img/logo.svg" width="200px">
-        <source media="(min-width: 800px)" srcset="assets/img/art.svg" width="500px">
-        <img src="assets/img/art.svg" alt="Sala com sofá limpo">
-      </picture>
+      <img src="assets/img/art.svg" 
+          srcset="assets/img/art.svg 300w, 
+                  assets/img/art.svg 400w, 
+                  assets/img/art.svg 500w" 
+          sizes="(max-width: 940px) 300px, 
+                  (max-width: 1049px) 400px, 
+                  500px" 
+          alt="Sala com sofá limpo">
     </section>
 
     <section id="servicos">

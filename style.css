@@ -204,6 +204,7 @@ ul li a:hover{
   box-sizing: border-box;
   padding: 2rem 4rem 4rem;
   width: 100%;
+  gap: 4rem;
 }
 .descricao{
   display: flex;
@@ -377,11 +378,6 @@ footer{
     width: 100%;
     height: auto;
   }
-  #equipamentos{
-    flex-direction: column;
-    gap: 2rem;
-    padding: 1rem 1rem 2rem;
-  }
   #equipamentos img{
     max-width: 100%;
     height: auto;
@@ -436,5 +432,10 @@ footer{
 @media (max-width: 1050px){
   #home{
     padding: 5rem 3rem;
+  }
+  #equipamentos{
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem 1rem 2rem;
   }
 }

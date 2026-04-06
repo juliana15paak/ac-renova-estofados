@@ -189,6 +189,10 @@ ul li a:hover{
   padding: 5rem 4rem 1rem;
   width: 100%;
 }
+#resultados img{
+  width: 55%;
+  height: auto;
+}
 .galeria{
   display: flex;
   padding: 2rem 0;
@@ -362,10 +366,6 @@ footer{
   }
   #resultados{
     padding: 2rem 1rem 0;
-  }
-  #resultados img{
-    width: 100%;
-    height: auto;
   }
   #equipamentos img{
     max-width: 100%;

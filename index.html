@@ -32,11 +32,13 @@
         <li><a href="#servicos">Serviços</a></li>
         <li><a href="#resultados">Resultados</a></li>
         <li><a href="#contato">Contato</a></li>
-        <button class="btn-primary" style="padding: 8px 10px;">
-          <a href="https://api.whatsapp.com/send/?phone=11948443854&text&type=phone_number&app_absent=0&utm_source=ig" target="_blank">
-            <img src="assets/icons/WhatsappLogo.svg" alt="Whatsapp" width="32px">
-          </a>
-        </button>
+        <a href="https://wa.me/5511948443854?text=Olá!%20Gostaria%20de%20um%20orçamento." 
+   target="_blank" 
+   class="btn-primary" 
+   style="text-decoration: none; display: inline-flex; align-items: center; gap: 8px;">
+   Solicitar Orçamento
+   <img src="assets/icons/WhatsappLogo.svg" alt="Whatsapp" width="32px">
+</a>
       </ul>
     </nav>
   </header>
@@ -112,7 +114,7 @@
           <li>Extratora profissional Karcher</li>
         </ul>
         <button class="btn-primary">
-          <a href="javascript:void(0)" onclick="abrirWhats()" target="_blank">Solicitar Orçamento</a>
+          <a href="intent://send/5511985045974?text=Olá#Intent;scheme=whatsapp;package=com.whatsapp;split=0;S.browser_fallback_url=https%3A%2F%2Fwa.me%2F5511985045974;end">Solicitar Orçamento</a>
           <img src="assets/icons/WhatsappLogo.svg" alt="Whatsapp" width="32px">
         </button>
       </div> 
@@ -196,14 +198,5 @@
   </footer>
 
   <script src="./js/menu.js" defer></script>
-  <script>
-    function abrirWhats() {
-      const numero = "5511985045974";
-      const texto = encodeURIComponent("Olá! Gostaria de um orçamento para renovar meu estofado.");
-      const url = `https://api.whatsapp.com/send?phone=${numero}&text=${texto}`;
-      
-      window.open(url, '_blank');
-    }
-  </script>
 </body>
 </html>

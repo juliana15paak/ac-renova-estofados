@@ -232,15 +232,6 @@ ul li a:hover{
 .arrow-left { left: 10px; }
 .arrow-right { right: 10px; }
 
-#equipamentos{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  box-sizing: border-box;
-  padding: 2rem 4rem 4rem;
-  width: 100%;
-  gap: 4rem;
-}
 .descricao{
   display: flex;
   flex-direction: column;
@@ -334,6 +325,31 @@ footer{
   gap: 1rem;
 }
 
+@media (max-width: 1080px){
+  #home{
+    padding: 5rem 3rem;
+  }
+  .servicos__cards{
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  .card{
+    width: 30%;
+    padding: 0.875rem;
+    text-align: center;
+  }
+  .card img{
+    width: 100%;
+    height: auto;
+  }
+  .card h4{
+    font-size: 1rem;
+  }
+  .escondido{
+    display: flex;
+  }
+}
 
 @media (max-width: 768px){
   h1{
@@ -388,19 +404,36 @@ footer{
   }
   #servicos{
     gap: 1rem;
+    padding: 2rem 1rem;
+  }
+  .servicos__cards{
+    gap: 1rem;
   }
   .card{
     width: 45%;
+    padding: 0.875rem;
+    text-align: center;
+  }
+  .card img{
+    width: 100%;
+    height: auto;
+  }
+  .card h4{
+    white-space: nowrap;
+    overflow: hidden;      
+    text-overflow: ellipsis; 
   }
   #resultados img{
-    width: 85%;
+    width: 90%;
+    max-height: 180px;
+    aspect-ratio: 4 / 3;
   }
   #resultados{
     padding: 2rem 1rem 0;
   }
-  #equipamentos img{
-    max-width: 85%;
-    height: auto;
+  .galeria{
+    gap: 0.875rem;
+    padding: 1.5rem 0;
   }
   .arrow { 
     display: none; 
@@ -439,7 +472,12 @@ footer{
   }
   footer{
     padding: 2rem 1rem;
-    gap: 2rem;
+    gap: 1rem;
+    align-items: start;
+    flex-direction: column;
+  }
+  .redes{
+    gap: 0.5rem;
   }
   .redes a{
     justify-content: center;
@@ -451,37 +489,3 @@ footer{
     width: 30px;
   }
 }
-
-
-@media (max-width: 1080px){
-  #home{
-    padding: 5rem 3rem;
-  }
-  #equipamentos{
-    flex-direction: column;
-    gap: 2rem;
-    padding: 1rem 1rem 2rem;
-  }
-  .servicos__cards{
-    flex-wrap: wrap;
-    gap: 2rem;
-    justify-content: center;
-  }
-  .card{
-    width: 30%;
-    padding: 0.875rem;
-    text-align: center;
-  }
-  .card img{
-    width: 100%;
-    height: auto;
-  }
-  .card h4{
-    font-size: 1rem;
-  }
-  .escondido{
-    display: flex;
-  }
-}
-
-

@@ -61,13 +61,11 @@
         </a>
       </div>
       <img src="assets/img/art.svg" 
-          srcset="assets/img/art.svg 300w, 
-                  assets/img/art.svg 400w, 
-                  assets/img/art.svg 500w" 
-          sizes="(max-width: 940px) 300px, 
-                  (max-width: 1049px) 400px, 
-                  500px" 
-          alt="Sala com sofá limpo">
+        width="500" 
+        height="400" 
+        fetchpriority="high"
+        alt="Sala com sofá limpo"
+        class="hero__img">
     </section>
 
     <section id="servicos">
@@ -106,10 +104,10 @@
         <button class="arrow arrow-left" onclick="scrollGaleria(-1)" aria-label="Anterior"> &lt; </button>
         
         <div class="galeria" id="galeria">
-          <img src="assets/img/ad-colchao.jpeg" alt="Antes e depois colchão">
-          <img src="assets/img/ad-cadeira.jpeg" alt="Antes e depois cadeira">
-          <img src="assets/img/ad-sofa2.jpeg" alt="Antes e depois sofá">
-          <img src="assets/img/ad-sofa.jpeg" alt="Antes e depois sofá">
+          <img src="assets/img/ad-colchao.jpeg" width="400" height="300" alt="Antes e depois colchão">
+          <img src="assets/img/ad-cadeira.jpeg" width="400" height="300" alt="Antes e depois cadeira">
+          <img src="assets/img/ad-sofa2.jpeg" width="400" height="300" alt="Antes e depois sofá">
+          <img src="assets/img/ad-sofa.jpeg" width="400" height="300" alt="Antes e depois sofá">
         </div>
 
         <button class="arrow arrow-right" onclick="scrollGaleria(1)" aria-label="Próximo"> &gt; </button>

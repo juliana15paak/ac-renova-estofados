@@ -150,6 +150,12 @@ ul li a:hover{
 .home__texts h1{
   color: var(--shadow-color-secondary);
 }
+.hero__img {
+  width: 100%;           
+  height: auto;         
+  max-width: 500px;      
+  aspect-ratio: 500 / 400; 
+}
 #servicos{
  background-color: var(--shadow-color-quinary); 
  box-sizing: border-box;
@@ -177,6 +183,7 @@ ul li a:hover{
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 4px 6px 12px;
 }
+
 .card:hover{
   transform: translateY(-4px);
 }

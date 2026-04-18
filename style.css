@@ -309,6 +309,15 @@ ul li a:hover{
   gap: 4rem;
   width: 100%;
 }
+.map-img {
+  filter: grayscale(95%) opacity(0.9); 
+  transition: all 0.4s ease;
+}
+
+.map-img:hover {
+  filter: grayscale(0%) opacity(1); 
+  transform: scale(1.01); 
+}
 .locais__toggles{
   display: flex;
   flex-direction: column;
@@ -534,9 +543,8 @@ footer{
   .locais{
     flex-direction: column;
   }
-  .locais iframe{
-    width: 100%;
-    height: 300px;
+  .map-img{
+    display: none;
   }
   .locais__toggles{
     width: 100%;

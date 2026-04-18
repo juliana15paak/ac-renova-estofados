@@ -357,6 +357,48 @@ footer{
   gap: 1rem;
 }
 
+/* MODAL */
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 1000; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); 
+  backdrop-filter: blur(8px);           
+  -webkit-backdrop-filter: blur(8px);
+  display: flex;             
+  justify-content: center;   
+  align-items: center;
+}
+
+.modal-conteudo {
+  max-width: 90%;
+  max-height: 80vh; 
+  object-fit: contain;
+  border-radius: 8px;
+  animation: zoom 0.3s; 
+}
+
+@keyframes zoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+.fechar-modal {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* TELAS MÉDIAS */
+
 @media (max-width: 1080px){
   #home{
     padding: 5rem 3rem;
@@ -383,6 +425,8 @@ footer{
   }
 }
 
+/* MOBILE */
+
 @media (max-width: 768px){
   h1{
     font-size: 2.2rem;
@@ -396,6 +440,7 @@ footer{
   h4{
     font-size: 1rem;
   }
+  .modal-conteudo { width: 90%; }
   .home__texts h3{
     font-size: 1.1rem;
     line-height: 1.4;
@@ -457,7 +502,7 @@ footer{
   }
   #resultados img{
     width: 90%;
-    max-height: 180px;
+    max-height: 200px;
     aspect-ratio: 4 / 3;
   }
   #resultados{

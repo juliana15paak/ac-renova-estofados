@@ -32,7 +32,7 @@
         <li><a href="#servicos">Serviços</a></li>
         <li><a href="#resultados">Resultados</a></li>
         <li><a href="#contato">Contato</a></li>
-        <a href="https://wa.me/5511985045974?text=Olá!%20Gostaria%20de%20um%20orçamento." 
+        <a href="https://wa.me/5511985045974?text=Olá!%20Gostaria%20de%20um%20orçamento%20para%20renovar%20meu%20estofado." 
           target="_blank" 
           class="btn-primary" 
           style="text-decoration: none; display: inline-flex; align-items: center; padding: 8px 10px;">
@@ -42,7 +42,7 @@
     </nav>
   </header>
   <main>
-    <a href="https://wa.me/5511985045974?text=Olá!%20Gostaria%20de%20um%20orçamento." 
+    <a href="https://wa.me/5511985045974?text=Olá!%20Gostaria%20de%20um%20orçamento%20para%20renovar%20meu%20estofado." 
       target="_blank" 
       class="btn-primary btn-fixed" 
       style="text-decoration: none; display: inline-flex; align-items: center; gap: 8px;">
@@ -52,7 +52,7 @@
       <div class="home__texts">
         <h1>A&C RENOVA ESTOFADOS</h1>
         <h3>Seu sofá novo de novo, sem sair de casa. Removemos manchas, odores e sujeira profunda. Atendimento em domicílio em São Paulo e região.</h3>
-        <a href="https://wa.me/5511985045974?text=Olá!%20Gostaria%20de%20um%20orçamento." 
+        <a href="https://wa.me/5511985045974?text=Olá!%20Gostaria%20de%20um%20orçamento%20para%20renovar%20meu%20estofado." 
           target="_blank" 
           class="btn-primary" 
           style="text-decoration: none; display: inline-flex; align-items: center; gap: 8px;">
@@ -101,10 +101,17 @@
 
     <section id="resultados">
       <h1>Antes e Depois</h1>
-      <div class="galeria">
-        <img src="assets/img/ad-colchao.jpeg" alt="Resultado colchão sujo para colchão limpo" width="550px">
-        <img src="assets/img/ad-cadeira.jpeg" alt="Resultado cadeira suja para cadeira limpa" width="550px">
-        <img src="assets/img/ad-sofa.jpeg" alt="Resultado sofá sujo para sofá limpo" width="550px">
+      
+      <div class="galeria-container">
+        <button class="arrow arrow-left" onclick="scrollGaleria(-1)" aria-label="Anterior"> &lt; </button>
+        
+        <div class="galeria" id="galeria">
+          <img src="assets/img/ad-colchao.jpeg" alt="Antes e depois colchão">
+          <img src="assets/img/ad-cadeira.jpeg" alt="Antes e depois cadeira">
+          <img src="assets/img/ad-sofa.jpeg" alt="Antes e depois sofá">
+        </div>
+
+        <button class="arrow arrow-right" onclick="scrollGaleria(1)" aria-label="Próximo"> &gt; </button>
       </div>
     </section>
     <section id="local">
@@ -176,7 +183,7 @@
     </div>
       <div class="infos">
         <h3>Contate-nos</h3>
-        <a href="https://wa.me/5511948443854?text=Olá!%20Gostaria%20de%20um%20orçamento." 
+        <a href="https://wa.me/5511948443854?text=Olá!%20Gostaria%20de%20um%20orçamento%20para%20renovar%20meu%20estofado." 
           target="_blank" 
           class="btn-primary" 
           style="text-decoration: none; display: inline-flex; align-items: center; gap: 8px;">
@@ -190,15 +197,16 @@
   <footer>
     <div class="redes">
       <a href="https://www.instagram.com/acrenovaestofados/" target="_blank">
-        <img src="assets/icons/instagram.svg" alt="Instagram" width="24px">
+        <img src="assets/icons/instagram.svg" alt="Instagram" width="20px">
       </a>
       <a href="https://www.facebook.com/people/Aec-Renova/61587893678762/" target="_blank">
-        <img src="assets/icons/facebookLogo.svg" alt="Facebook" width="24px">
+        <img src="assets/icons/facebookLogo.svg" alt="Facebook" width="20px">
       </a>
     </div>
     <caption>&copy; Copyright - Todos os Direitos Reservados</caption>
   </footer>
 
   <script src="./js/menu.js" defer></script>
+  <script src="./js/carrossel.js" defer></script>
 </body>
 </html>

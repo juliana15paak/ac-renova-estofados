@@ -295,6 +295,13 @@ ul li a:hover{
   gap: 2rem;
   width: 100%;
 }
+.texts-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 0.5rem;
+}
 .locais{
   display: flex;
   align-items: center;

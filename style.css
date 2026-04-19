@@ -1,7 +1,7 @@
 :root{
   --color-primary: #EDF6F9;
-  --color-secondary: #0392CC;
-  --color-tertiary: #52b000;
+  --color-secondary: #027BAB;
+  --color-tertiary: #356E03;
   --color-quaternary: #5DD4DF;
   --color-quinary: #006D77;
   --color-black: #0F031B;
@@ -95,7 +95,7 @@ h4{
 
 }
 .btn-fixed{
-  padding: 10px 12px;
+  padding: 10px;
   margin: 2rem;
   position: fixed;
   bottom: 0;

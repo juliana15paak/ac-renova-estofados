@@ -256,6 +256,9 @@ ul li a:hover{
 .galeria::-webkit-scrollbar {
   display: none; 
 }
+.galeria img{
+  cursor:pointer;
+}
 .arrow {
   position: absolute;
   top: 50%;

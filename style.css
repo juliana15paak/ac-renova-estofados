@@ -175,6 +175,9 @@ ul li a:hover{
 .home__texts h1{
   color: var(--shadow-color-secondary);
 }
+.home__texts h2{
+  font-size: 1.2rem;
+}
 .hero__img {
   width: 100%;           
   height: auto;         
@@ -455,7 +458,7 @@ footer{
   h4{
     font-size: 1rem;
   }
-  .home__texts h3{
+  .home__texts h2{
     font-size: 1.1rem;
     line-height: 1.4;
     font-weight: 500;
@@ -509,7 +512,7 @@ footer{
     width: 100%;
     height: auto;
   }
-  .card h4{
+  .card h3{
     white-space: nowrap;
     overflow: hidden;      
     text-overflow: ellipsis; 

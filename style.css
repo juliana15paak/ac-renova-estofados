@@ -1,7 +1,7 @@
 :root{
   --color-primary: #EDF6F9;
   --color-secondary: #0392CC;
-  --color-tertiary: #59B606;
+  --color-tertiary: #52b000;
   --color-quaternary: #5DD4DF;
   --color-quinary: #006D77;
   --color-black: #0F031B;
@@ -11,6 +11,7 @@
   --gray-secondary: #8C8C8C;
   --gray-tertiary: #BEBDBF;
   --gray-quaternary: #D9D9D9;
+  --gray-quinary: #dbeaef;
 
   --shadow-color-secondary: #1C4F6C;
   --shadow-color-tertiary: #17702E;
@@ -56,6 +57,7 @@
 }
 body{
   font-family: "Open Sans", sans-serif;
+  background-color: var(--color-primary);
 }
 h1, h2, h3, h4{
   font-family: "Work Sans", sans-serif;
@@ -99,16 +101,21 @@ h4{
   bottom: 0;
   right: 0;
 }
-.toggle-primary{
-  background-color: var(--color-primary);
+.toggle-primary, .toggle-secondary{
   padding: 1rem 24px;
   color: black;
   border-radius: 10px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.toggle-primary:hover{
+.toggle-primary:hover, .toggle-secondary:hover{
   cursor: pointer;
   transform: translateY(-2px);
+}
+.toggle-primary{
+  background-color: var(--color-primary);
+}
+.toggle-secondary{
+  background-color: var(--gray-quinary);
 }
 summary{
   font-weight: 600;

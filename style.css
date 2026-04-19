@@ -1,7 +1,7 @@
 :root{
   --color-primary: #EDF6F9;
   --color-secondary: #027BAB;
-  --color-tertiary: #356E03;
+  --color-tertiary: #157D3B;
   --color-quaternary: #5DD4DF;
   --color-quinary: #006D77;
   --color-black: #0F031B;
@@ -168,7 +168,7 @@ ul li a:hover{
 #home{
   display: flex;
   align-items: center;
-  padding: 3rem 4rem;
+  padding: 3rem 4rem 3.5rem;
   background: radial-gradient(circle at bottom, var(--color-primary), var(--color-primary), var(--color-primary), var(--tint-color-secondary));
   gap: 8rem;
   width: 100%;
@@ -194,7 +194,7 @@ ul li a:hover{
 #servicos{
  background-color: var(--shadow-color-quinary); 
  box-sizing: border-box;
- padding: 2rem 2rem 3rem;
+ padding: 2rem;
 }
 .servicos__cards{
   display: flex;

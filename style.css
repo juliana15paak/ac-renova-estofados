@@ -7,7 +7,7 @@
   --color-black: #0F031B;
   --color-white: #F7F4FB;
 
-  --gray-primary: #5C5C5E;
+  --gray-primary: #4a4a4b;
   --gray-secondary: #8C8C8C;
   --gray-tertiary: #BEBDBF;
   --gray-quaternary: #D9D9D9;
@@ -74,7 +74,6 @@ h3{
 h4{
   font-size: 1rem;
 }
-
 .btn-primary{
   display: flex;
   background-color: var(--shadow-color-tertiary);
@@ -100,7 +99,7 @@ h4{
   position: fixed;
   bottom: 0;
   right: 0;
-  z-index: 1111;
+  z-index: 1;
 }
 .toggle-primary, .toggle-secondary{
   padding: 1rem 24px;
@@ -345,6 +344,49 @@ ul li a:hover{
   font-weight: 600;
 }
 
+#feedback{
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+  gap: 4rem;
+  background-color: white;
+}
+.card-feedback{
+  display: flex;
+  flex-direction: column;
+  border-radius: 2rem;
+  padding: 2rem;
+  background-color: var(--color-primary);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 4px 6px 12px var(--gray-secondary);
+  gap: 1rem;
+  align-items: center;
+}
+.card-feedback:hover{
+  transform: translateY(-4px);
+}
+.header-feedback{
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
+.info-user{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+blockquote{
+  text-align: center;
+}
+.pgray{
+  font-size: 0.875;
+  color: var(--gray-primary);
+}
+.galeria-feedbacks{
+  display: flex;
+  gap: 2rem;
+}
+
 #contato{
   display: flex;
   justify-content: space-between;
@@ -451,6 +493,9 @@ footer{
   }
   .escondido{
     display: flex;
+  }
+  .galeria-feedbacks{
+    flex-direction: column;
   }
 }
 
@@ -563,6 +608,12 @@ footer{
   .locais__toggles{
     width: 100%;
   }
+
+  #feedback{
+    padding: 2rem;
+    gap: 1rem;
+  }
+
   #contato{
     flex-direction: column;
     padding: 2rem 1rem;

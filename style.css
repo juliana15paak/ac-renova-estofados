@@ -354,6 +354,7 @@ ul li a:hover{
 .card-feedback{
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   border-radius: 2rem;
   padding: 2rem;
   background-color: var(--color-primary);
@@ -361,6 +362,7 @@ ul li a:hover{
   box-shadow: 4px 6px 12px var(--gray-secondary);
   gap: 1rem;
   align-items: center;
+  flex: 1;
 }
 .card-feedback:hover{
   transform: translateY(-4px);
@@ -373,7 +375,7 @@ ul li a:hover{
 .info-user{
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0.2rem;
 }
 blockquote{
   text-align: center;

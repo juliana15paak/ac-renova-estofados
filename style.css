@@ -1,7 +1,7 @@
 :root{
   --color-primary: #EDF6F9;
-  --color-secondary: #027BAB;
-  --color-tertiary: #157D3B;
+  --color-secondary: #0392CC;
+  --color-tertiary: #59B606;
   --color-quaternary: #5DD4DF;
   --color-quinary: #006D77;
   --color-black: #0F031B;
@@ -77,7 +77,7 @@ h4{
 
 .btn-primary{
   display: flex;
-  background-color: var(--color-tertiary);
+  background-color: var(--shadow-color-tertiary);
   align-items: center;
   gap: 8px;
   padding: 8px 24px;
@@ -100,6 +100,7 @@ h4{
   position: fixed;
   bottom: 0;
   right: 0;
+  z-index: 1111;
 }
 .toggle-primary, .toggle-secondary{
   padding: 1rem 24px;

@@ -116,7 +116,7 @@ h4{
 }
 .toggle-secondary{
   background-color: var(--color-primary);
-  box-shadow: 4px 6px 7px var(--gray-secondary);}
+  box-shadow: 4px 6px 16px var(--gray-tertiary);}
 summary{
   font-weight: 600;
   padding: 4px 0;
@@ -379,6 +379,11 @@ ul li a:hover{
 }
 blockquote{
   text-align: center;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; 
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  min-height: 4.5em; 
 }
 .pgray{
   font-size: 0.875;

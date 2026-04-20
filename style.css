@@ -359,7 +359,7 @@ ul li a:hover{
   padding: 2rem;
   background-color: var(--color-primary);
   box-shadow: 4px 6px 12px var(--gray-secondary);
-  gap: 1rem;
+  gap: 0.3rem;
   align-items: center;
   flex: 1;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -371,11 +371,18 @@ ul li a:hover{
   display: flex;
   gap: 1rem;
   width: 100%;
+  align-items: start;
 }
 .info-user{
   display: flex;
   flex-direction: column;
   gap: 0.2rem;
+}
+.avatar-feedback {
+  width: 15%;      
+  max-width: 80px; 
+  min-width: 50px; 
+  height: auto;
 }
 blockquote{
   text-align: center;
@@ -618,8 +625,9 @@ footer{
 
   #feedback{
     padding: 2rem;
-    gap: 1rem;
+    gap: 2rem;
   }
+
 
   #contato{
     flex-direction: column;

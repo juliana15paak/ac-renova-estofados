@@ -61,3 +61,16 @@ btnsConversa.forEach(btn => {
     modalImg.src = this.getAttribute('data-print'); // Pega o caminho do print que está no HTML
   };
 });
+
+// ===================== SCROLL REVIEW ===================== 
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('show-scroll');
+    }
+  });
+}, { threshold: 0.1 }); // Começa a animar quando 10% da seção aparecer
+
+const elements = document.querySelectorAll('.hidden-scroll');
+elements.forEach((el) => observer.observe(el));

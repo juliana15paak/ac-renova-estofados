@@ -13,6 +13,9 @@ Uma Landing Page responsiva e focada em conversão desenvolvida para um negócio
 
 - **Foco em Conversão (UX/UI):** Design direto ao ponto, com chamadas para ação (CTAs) claras direcionando para o WhatsApp com mensagens pré-configuradas.
 - **SEO Local:** Estrutura de meta tags e conteúdo otimizado para motores de busca, focando em palavras-chave geográficas (Bairros da ZN, ZL e Grande SP) para ranqueamento regional.
+- **Performance**: Carregamento otimizado para dispositivos móveis.
+Abaixo, os resultados obtidos através do Google Lighthouse, que validam a entrega de uma interface fluida e preparada para SEO local:
+<img width="376" height="487" src="https://github.com/user-attachments/assets/d2b43612-4ae8-4ebc-aa8b-18d292717778" alt="Performance Lighthouse"/>
 
 ## 🛠️ Tecnologias Utilizadas
 
